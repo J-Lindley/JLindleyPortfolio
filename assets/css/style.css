@@ -1,0 +1,87 @@
+nav {
+    border-bottom: 3px solid #85754d;
+}
+
+img.profile {
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.img-thumbnail {
+    border: 2px solid #dee2e6;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    font-weight: 580;
+}
+
+.quote {
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.jumbotron {
+    opacity: 0.75;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.jumbotron a, .jumbotron a:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.fas, .fab {
+    color: #000;
+    /* display: none; */
+}
+
+.fas:hover, .fab:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+/* .trainOverlay, .crystalOverlay, .friendOverlay, .recipeOverlay, .burgerOverlay, .parkSmartOverlay {
+    display: none;
+} */
+
+footer {
+    border-top: 1px solid #b1b1b1;
+    color: #000;
+    opacity: 0.5;
+    font-weight: 600;
+}
+
+footer .container {
+    vertical-align: middle;
+}
+
+img.tech {
+    max-width: 110px;
+    min-width: 75px;
+    align-self: center;
+}
+
+.tech:hover {
+    color: #bea6ff;
+    transition: all 1.5s ease;
+    transform: rotateY(720deg);
+}
+
+.card-img-overlay {
+    display: none;
+}
+
+.trainOverlay:hover, .crystalOverlay:hover, .friendOverlay:hover, .recipeOverlay:hover, 
+.burgerOverlay:hover, .parkSmartOverlay:hover, .mongoNewsOverlay:hover, .reactOverlay:hover, 
+.googleBooksOverlay, .locollabOverlay {
+    opacity: 0.85;
+    background: #34405a;
+    color: #fff;
+}
